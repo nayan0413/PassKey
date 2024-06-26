@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    width: 100vw;
+}
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5vw;
+    max-width: 99vw;
+}
+nav ul{
+    display: flex;
+    gap: 15px;
+    margin: 0 20px;
+}
+nav ul li{
+    list-style: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+nav ul li:hover{
+    color:rgb(211, 211, 211);
+}
+nav .name{
+    font-size: 22px;
+    font-family: "Playwrite GB S", cursive;
+    margin: 0 20px;
+}
+table{
+    border: 2px solid black;
+}
+.container{
+    width: 80vw;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.container p{
+    font-size: 20px;
+}
+.btn{
+    padding: 7px 15px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+.btn:hover{
+    color: rgb(218, 217, 217);
+}

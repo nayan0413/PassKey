@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PassKey</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <nav>
+            <div class="name">PassKey</div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <div class="container">
+            <h1 class="head">Password Manager</h1>
+            <p>Ready to simplify your digital life? Let's get started by securely storing and organizing your passwords in one safe place.</p>
+            <h2>Your Passwords</h2>
+            <table>
+                <tr>
+                    <th>Website</th>
+                    <th>Username</th>
+                    <th>Password</th>
+                    <th>Delete</th>
+                </tr>
+                <tr>
+                    <td>Website</td>
+                    <td>Username</td>
+                    <td>Password</td>
+                </tr>
+            </table>
+            <h2>Add a Password</h2>
+            <form action="/submit" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required placeholder="Enter Username">
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="text" id="password" name="password" required placeholder="Enter Password">
+            </form>
+            <button class="btn">Submit</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>
