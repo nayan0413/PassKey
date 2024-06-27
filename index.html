@@ -19,7 +19,8 @@
         </nav>
         <div class="container">
             <h1 class="head">Password Manager</h1>
-            <p>Ready to simplify your digital life? Let's get started by securely storing and organizing your passwords in one safe place.</p>
+            <p>Ready to simplify your digital life? Let's get started by securely storing and organizing your passwords
+                in one safe place.</p>
             <h2>Your Passwords</h2>
             <table>
                 <tr>
@@ -28,21 +29,19 @@
                     <th>Password</th>
                     <th>Delete</th>
                 </tr>
-                <tr>
-                    <td>Website</td>
-                    <td>Username</td>
-                    <td>Password</td>
-                </tr>
             </table>
             <h2>Add a Password</h2>
             <form action="/submit" method="post">
-                <label for="username">Username:</label>
+                <label for="website">Website:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" id="website" name="website" required placeholder="Enter Website">
+                <br><br>
+                <label for="username">Username:&nbsp;</label>
                 <input type="text" id="username" name="username" required placeholder="Enter Username">
                 <br><br>
-                <label for="password">Password:</label>
-                <input type="text" id="password" name="password" required placeholder="Enter Password">
+                <label for="password">Password:&nbsp;&nbsp;</label>
+                <input type="password" id="password" name="password" required placeholder="Enter Password">
             </form>
-            <button class="btn">Submit</button>
+            <button class="btn submit">Submit</button>
         </div>
         <script src="script.js"></script>
     </body>
