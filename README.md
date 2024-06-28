@@ -8,7 +8,6 @@ PassKey is a simple web-based password manager that allows users to securely sto
 
 - Password Management: Store, display, and delete passwords.
 - Local Storage: Passwords are securely stored locally on the user’s browser.
-- Fullscreen mode
 - Responsive Design: User-friendly interface that adapts to various screen sizes.
 
 
@@ -40,9 +39,6 @@ PassKey is a simple web-based password manager that allows users to securely sto
 ## Deleting Passwords
 - Click the 'Delete' button next to the password entry you want to remove.
 - The password will be removed from the table and deleted from localStorage.
-
-
-
 
 ## Acknowledgements
 
