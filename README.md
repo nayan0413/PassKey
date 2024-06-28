@@ -1,7 +1,7 @@
 
 # PassKey - Password Manager
 
-PassKey is a simple web-based password manager that allows users to ecurely store, organize and delete passwords. This project utilizes HTML, CSS and JavaScript, with data stored locally using localStorage.
+PassKey is a simple web-based password manager that allows users to securely store, organize and delete passwords. This project utilizes HTML, CSS and JavaScript, with data stored locally using localStorage.
 
 
 ## Features
